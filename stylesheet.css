@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Space+Mono');
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-color: #72C0EB;
+    font-family: Montserrat, sans-serif;
+
+
+}
+
+p {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+h1 {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 48px;
+}
+
+h2 {
+  letter-spacing: 2px;
+}
+
+.btn {
+  background-color: #260B36;
+}
+
+/* The navigation bar */
+
+.my-navbar {
+    border: 0;
+    border-radius: 0;
+    background: rgba(0,0,0,0.5);
+    margin-top: 0;
+
+}
+
+
+.my-navbar .navbar-nav li a {
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-left: 10px
+
+}
+
+.my-navbar .icon-bar {
+    background-color: white;
+}
+
+.my-navbar .navbar-brand {
+    color: white;
+}
+
+.index-bg {
+    /* The image used */
+    background-image: url('../images/spacex-71873-unsplash_01.jpg');
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.previous-launches {
+    /* The image used */
+    background-image: url('../images/spacex-81773-unsplash_01.jpg');
+    height: 450px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    /* Add space at the bottom */
+    margin-bottom: 100px;
+}
+
+.latest-mission {
+    /* The image used */
+    background-image: url('../images/spacex-549326-unsplash_01.jpg');
+    height: 450px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    /* Add space at the bottom */
+    margin-bottom: 100px;
+}
+
+
+.form-container {
+    color: black;
+    padding: 50px 50px;
+    margin-top: 5vh;
+    -webkit-box-shadow: 1px 4px 45px 8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 4px 45px 8px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 4px 45px 8px rgba(0, 0, 0, 0.75);
+
+}
+
+.hero-text {
+    color: white;
+    padding: 60px 30px;
+    margin-top: 25vh;
+    -webkit-box-shadow: 1px 4px 45px 8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 4px 45px 8px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 4px 45px 8px rgba(0, 0, 0, 0.75);
+}
+
+.hero-text-launches {
+    color: white;
+    padding: 40px 40px;
+    margin-top: 20vh;
+    -webkit-box-shadow: 1px 4px 45px 8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 4px 45px 8px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 4px 45px 8px rgba(0, 0, 0, 0.75);
+}
+
+.hero-text-block {
+    margin-top: 10vh;
+    color: white;
+    padding: 60px 40px;
+    -webkit-box-shadow: 1px 4px 45px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 45px 8px rgba(0,0,0,0.75);
+box-shadow: 1px 4px 45px 8px rgba(0,0,0,0.75);
+}
+
+
+
+.patches {
+
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 15px;
+    max-width: 200px
+
+}
+
+.rocket-img {
+    max-width: 1200px;
+    max-height: 800px;
+
+}
+
+.border {
+    border-bottom: 10px solid;
+    color: #ED1D24;
+    margin-bottom: 40px;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.text {
+      font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+    line-height: 25px
+}
+
+.error{
+    color: red;
+    display: none;
+}
+
+input[type="text"]{
+    width: 100%;
+    border: solid 1px lightgrey;
+    height: 45px;
+    padding: 10px;
+    outline: none;
+}
+
+
+.patchContainer {
+
+    border-top: 10px solid #ED1D24;
+    margin-top: 30px;
+    margin-left: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+
+.patchContainer:hover{
+        box-shadow: 2.5px 5px 5px 2.5px #888888;
+        cursor: pointer;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Microsite for SpaceX - Latest Mission</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Space+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="banner latest-mission">
+
+
+        <!-- navigation bar-->
+        <nav class="navbar navbar-inverse my-navbar">
+            <div class="container-fluid-navbar">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                    <a class="navbar-brand" href="index.html">SpaceX <br>Missions</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="latest-mission.html">Latest mission</a></li>
+                        <li><a href="Previous-Launches.html">Previous launches</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--   End of navigation bar-->
+
+        <!--Text block on image-->
+        <div class="container">
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center hero-text-block">
+                <h1>SPACE X</h1>
+                <h4>Latest Launch</h4>
+            </div>
+        </div>
+        <!--End of text-block-->
+
+    </div> <!-- End of div holding image, navbar and text-block-->
+
+
+   <div class="container">
+
+        <div class="col-sm-4 col-md-6 col-lg-8">
+
+        <h2>THE LATEST MISSION</h2>
+        <br>
+        <div class="border"></div>
+
+        <p id="latestMission"></p>
+
+        </div>
+
+
+
+
+    </div>
+
+    <div class="container text-center">
+    <div class="thumbnail rocket-img" id="flickrImage">
+    </div>
+    </div>
+
+
+    <div class="container">
+
+        <div class="col-sm-4 col-md-6 col-lg-8">
+
+        <h2>DETAILS ABOUT THE MISSION</h2>
+        <br>
+        <div class="border"></div>
+        <p id="details"></p>
+        <br><br>
+
+        </div>
+
+
+
+
+
+
+
+        </div>
+
+        <!-- Video container -->
+        <div class="container">
+        <div class="col-sm-4 col-md-6 col-lg-8">
+        <h2>VIDEO FROM THE LAUNCH</h2><br>
+        <div class="border"></div>
+        <p>SpaceX is targeting Sunday, October 7 for the launch of the SAOCOM 1A satellite from Space Launch Complex 4E (SLC-4E) at Vandenberg Air Force Base in California.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vr_C6LQ7mHc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        </div> <!--End of video container-->
+
+
+    <script src="js/latest-mission.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

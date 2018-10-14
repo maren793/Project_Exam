@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Microsite for SpaceX - Contact</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Space+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="index-bg">
+
+         <!-- navigation bar-->
+    <nav class="navbar navbar-inverse my-navbar">
+        <div class="container-fluid-navbar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="index.html">SpaceX <br>Missions</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="latest-mission.html">Latest mission</a></li>
+                        <li><a href="Previous-Launches.html">Previous launches</a></li>
+                        <li class="active"><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+       <!-- End of navigation bar-->
+
+        <div class="container-fluid text-center">
+        <h1>Questions or feedback?</h1></div>
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <!--form start-->
+                <form class="form-container">
+                    <div class="form-group">
+                        <label for="inputFirstname">Firstname</label>
+                        <input class="form-control" type="text" name="firstName"  id="firstName" placeholder="Firstname">
+                        <span class="error" id="firstNameError">Please enter your firstname</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputLastname">Lastname</label>
+                        <input class="form-control" type="text" name="lastName" id="lastName" placeholder="Lastname">
+                        <span class="error" id="lastNameError">Please enter your lastname</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email address</label>
+                        <input class="form-control" type="text" name="email"  id="email" placeholder="Email">
+                        <span class="error" id="emailError">Please enter a valid email</span>
+                    </div>
+
+                    <div class="form-group">
+                           <label for="textarea">Comments</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                        </div>
+                    <button type="submit" id="submitForm" class="btn btn-primary btn-block btn-lg">Send</button>
+                </form>
+                <!--form end-->
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+        </div>
+
+    </div>
+
+<script src="js/contact.js"></script>
+
+</body>
+
+</html>
